@@ -1,5 +1,7 @@
+// eslint-disable-next-line quotes
 import Head from "next/head";
 
+// eslint-disable-next-line quotes
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
