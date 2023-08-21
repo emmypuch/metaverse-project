@@ -26,6 +26,13 @@ const About = () => (
         Metaverse world, because this is really the <span className="font-extrabold text-white">madness of the metaverse</span> today, using only <span className="font-extrabold text-white">VR</span> devices you can easily explore the Metaverse world you want,
         turn your dreams into reality. Let's <span className="font-extrabold text-white">explore</span> the madness of the Metaverse by scrolling down.
       </motion.p>
+
+      <motion.img
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        src="/arrow-down.svg"
+        alt="arrow down"
+        className="w-[18px] h-[28px] object-contain mt-[28px]"
+      />
     </motion.div>
   </section>
 );
