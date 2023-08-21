@@ -1,3 +1,4 @@
+// eslint-disable-next-line quotes
 import { Footer, Navbar } from "../components";
 import {
   About,
@@ -8,6 +9,7 @@ import {
   Insights,
   WhatsNew,
   World,
+  // eslint-disable-next-line quotes
 } from "../sections";
 
 const Page = () => (
