@@ -9,7 +9,7 @@ const Navbar = () => (
   // eslint-disable-next-line no-trailing-spaces
   <motion.nav 
     variants={navVariants}
-    initial= "hidden"
+    initial="hidden"
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
