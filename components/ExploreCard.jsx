@@ -1,5 +1,6 @@
 'use client';
 
+
 const ExploreCard = () => (
   <div>
     Explore Card
